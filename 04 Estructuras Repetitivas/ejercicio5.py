@@ -17,6 +17,6 @@ while num != num_aleatorio:
     print ("No es correcto, ingrese el numero nuevamente")
     num = int (input("Por favor, ingrese un numero:"))
     cont += 1
-#Caso el numero ingresao es el mismo, en la pantalla apunta los intentos y cual fue el numero correcto
+#Caso el numero ingresado es el mismo, en la pantalla apunta los intentos y cual fue el numero correcto
 else:
     print (f"Felicitaciones!! Después de {cont} intentos, adivinastes que {num} es el numero correcto")

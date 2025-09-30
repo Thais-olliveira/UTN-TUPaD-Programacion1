@@ -5,7 +5,11 @@ dígitos que contiene.
 """
 
 num_entero = (input("Ingrese un numero entero:"))
-#Utiliza la funciona len para leer la cantidad de digitos
-tamaño = (len(num_entero))
+tamaño = 0
 
+for i in num_entero:
+    if i == "-": #Caso el numero ingresado sea negativo
+        pass    
+    else:
+        tamaño += 1
 print (input(f"Su numero tiene {tamaño} digitos"))

@@ -14,12 +14,12 @@ impar = 0
 
 for i in range (cuantidad):
     num_entero = int(input("Ingrese el numero: "))
-    if num_entero < 0:
-        negativo += 1
-    else:
-        positivo +=1
-    if negativo % 2 ==0 or positivo % 2 ==0:
-        par +=1
+    if num_entero % 2 == 0:
+        par += 1
     else:
         impar +=1
+    if num_entero < 0:
+        negativo +=1
+    else:
+        positivo +=1
 print (f"De estos numeros {negativo} son negativos, {positivo} positivos, y tenemos {par} pares y {impar} impares") 

@@ -7,7 +7,7 @@ número entero positivo indicado por el usuario.
 num = int(input("Ingrese un numero positivo:"))
 total = 0
 
-for i in range (num):
+for i in range (num + 1): #Incluye la suma de num
     total += i 
 
 print (f"La suma de los numero compreendidos entre 0 y {num} es {total}.")

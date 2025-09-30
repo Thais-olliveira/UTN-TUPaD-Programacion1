@@ -7,12 +7,11 @@ un 0.
 num_inicial = -1
 suma = 0
 
-#Mientras no se ingrese el 0 el numero va se sumando
-while num_inicial != 0:
+while True:
     num_inicial = int(input("Por favor, escriba un numero (o 0 se desea salir):"))
-#Se o numero ingresado es distindo a cero, suma al acumulador
-    num = num_inicial + suma
-    suma += num
+    if num_inicial == 0:
+        break
+    suma += num_inicial
 
 print (f"El valor {suma} es la suma de los numeros")
 
