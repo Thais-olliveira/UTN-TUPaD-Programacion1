@@ -1,3 +1,14 @@
+"""
+La biblioteca escolar necesita modernizar su forma de administrar el catálogo de libros y el
+stock de ejemplares disponibles. Tu tarea es desarrollar una aplicación de consola en Python
+que permita cargar, consultar y actualizar el inventario de manera sencilla, manteniendo
+registros persistentes en un archivo CSV.
+
+Implementar un programa modular (con funciones) que muestre un menú interactivo en bucle
+hasta que el usuario decida salir. El sistema debe asegurar datos consistentes y operaciones
+claras para altas, consultas, préstamos, devoluciones y reportes.
+"""
+
 import csv
 import os
 
